@@ -2,13 +2,14 @@
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu
  * 
- * Demonstrate looping with recursion. We can be somewhat functional. 
+ * Demonstrate some functional aspects of Java. We can be somewhat functional. 
  */
 package main;
 
 import closure.Closure;
 import currying.Currying;
 import higherOrderFunctions.HigherOrderFunctions;
+import lambdaFunctions.LambdaFunctions;
 import recursion.Recursion;
 
 public class Main {
@@ -20,7 +21,9 @@ public class Main {
 		
 		//Closure.demo();
 		
-		Currying.demo();
+		//Currying.demo();
+		
+		LambdaFunctions.demo();
 	}
 
 }
