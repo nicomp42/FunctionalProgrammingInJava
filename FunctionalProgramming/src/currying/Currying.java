@@ -8,7 +8,8 @@ public class Currying {
 	
 
 	public static void demo() {
-		// We are assembling widgets. Each widget has a common structure but has a unique ID string and will be a color and size from the enums defined above
+		// We are assembling widgets. Each widget has a common structure but has a unique ID string and will be a color and size from the enums defined above.
+		// We have curry-ed the widget construction into three functions, each of which accepts one parameter and returns a function that does the rest of the work
 		Function<String, Function<size, Function<color, String>>> makeWidget = id -> size -> color -> "Widget" + id + ":" + size.toString() + ":" + color.toString();
 		
 		Function<size, Function<color, String>> partialWidgetFunction = makeWidget.apply("007");	// Now we have part of a widget
