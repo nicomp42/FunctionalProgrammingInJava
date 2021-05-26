@@ -1,2 +1,2 @@
 # FunctionalProgrammingInJava </br>
-Some examples of recursion, closure, higher oder functions
+Some examples of recursion, closure, higher order functions
