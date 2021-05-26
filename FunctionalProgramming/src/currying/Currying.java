@@ -23,3 +23,4 @@ public class Currying {
 		System.out.println(finalWidget);
 	}
 }
+ 
